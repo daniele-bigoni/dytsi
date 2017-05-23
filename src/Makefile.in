@@ -155,6 +155,7 @@ am_DYTSI_OBJECTS = Application/main.$(OBJEXT) \
 	GeneralModel/WheelSetComponent.$(OBJEXT) \
 	Models/CooperriderModel.$(OBJEXT) \
 	Models/CooperriderOrthogonalModel.$(OBJEXT) \
+	Models/CooperriderOrthogonalFixedModel.$(OBJEXT) \
 	Models/CooperriderOrthogonalAsymmetricModel.$(OBJEXT) \
 	Models/CooperriderOrthoAsymFixedModel.$(OBJEXT) \
 	Solver/Solution.$(OBJEXT) Solver/Solver.$(OBJEXT) \
@@ -392,6 +393,7 @@ DYTSI_SOURCES = Application/main.cpp \
             GeneralModel/WheelSetComponent.cpp \
             Models/CooperriderModel.cpp \
             Models/CooperriderOrthogonalModel.cpp \
+            Models/CooperriderOrthogonalFixedModel.cpp \
             Models/CooperriderOrthogonalAsymmetricModel.cpp \
             Models/CooperriderOrthoAsymFixedModel.cpp \
             Solver/Solution.cpp \
@@ -468,6 +470,7 @@ noinst_HEADERS = Application/Simulation.h \
             Models/DYTSI_Models.h \
             Models/CooperriderModel.h \
             Models/CooperriderOrthogonalModel.h \
+            Models/CooperriderOrthogonalFixedModel.h \
             Models/CooperriderOrthogonalAsymmetricModel.h \
             Models/CooperriderOrthoAsymFixedModel.h \
             Solver/DYTSI_Solvers.h \
@@ -716,6 +719,8 @@ Models/CooperriderModel.$(OBJEXT): Models/$(am__dirstamp) \
 	Models/$(DEPDIR)/$(am__dirstamp)
 Models/CooperriderOrthogonalModel.$(OBJEXT): Models/$(am__dirstamp) \
 	Models/$(DEPDIR)/$(am__dirstamp)
+Models/CooperriderOrthogonalFixedModel.$(OBJEXT):  \
+	Models/$(am__dirstamp) Models/$(DEPDIR)/$(am__dirstamp)
 Models/CooperriderOrthogonalAsymmetricModel.$(OBJEXT):  \
 	Models/$(am__dirstamp) Models/$(DEPDIR)/$(am__dirstamp)
 Models/CooperriderOrthoAsymFixedModel.$(OBJEXT):  \
@@ -840,6 +845,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@Models/$(DEPDIR)/CooperriderModel.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@Models/$(DEPDIR)/CooperriderOrthoAsymFixedModel.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@Models/$(DEPDIR)/CooperriderOrthogonalAsymmetricModel.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@Models/$(DEPDIR)/CooperriderOrthogonalFixedModel.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@Models/$(DEPDIR)/CooperriderOrthogonalModel.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@Solver/$(DEPDIR)/BDFSolver.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@Solver/$(DEPDIR)/BulirschStoerSolver.Po@am__quote@

@@ -36,6 +36,7 @@
 
 #include "CooperriderModel.h"
 #include "CooperriderOrthogonalModel.h"
+#include "CooperriderOrthogonalFixedModel.h"
 #include "CooperriderOrthogonalAsymmetricModel.h"
 #include "CooperriderOrthoAsymFixedModel.h"
 

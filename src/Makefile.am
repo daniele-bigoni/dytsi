@@ -54,6 +54,7 @@ DYTSI_SOURCES= Application/main.cpp \
             GeneralModel/WheelSetComponent.cpp \
             Models/CooperriderModel.cpp \
             Models/CooperriderOrthogonalModel.cpp \
+            Models/CooperriderOrthogonalFixedModel.cpp \
             Models/CooperriderOrthogonalAsymmetricModel.cpp \
             Models/CooperriderOrthoAsymFixedModel.cpp \
             Solver/Solution.cpp \
@@ -130,6 +131,7 @@ noinst_HEADERS= Application/Simulation.h \
             Models/DYTSI_Models.h \
             Models/CooperriderModel.h \
             Models/CooperriderOrthogonalModel.h \
+            Models/CooperriderOrthogonalFixedModel.h \
             Models/CooperriderOrthogonalAsymmetricModel.h \
             Models/CooperriderOrthoAsymFixedModel.h \
             Solver/DYTSI_Solvers.h \
