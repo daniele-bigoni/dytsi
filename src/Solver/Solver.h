@@ -20,7 +20,7 @@
  * Department of Applied Mathematics and Computer Science
  *
  * Author: Daniele Bigoni
- * E-mail: dabi@dtu.dk
+ * E-mail: dabi@limitcycle.it
  *
  */
 
