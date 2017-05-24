@@ -6,9 +6,9 @@
 
   <Transient TestName="01-Transient">
     <Solver Name="sdirkNT1">
-      <AbsPrecision>1e-8</AbsPrecision>
-      <RelPrecision>1e-6</RelPrecision>
-      <InitStepLength>1e-6</InitStepLength>
+      <AbsPrecision>1e-3</AbsPrecision>
+      <RelPrecision>1e-2</RelPrecision>
+      <InitStepLength>1e-4</InitStepLength>
       <StoreFrequency>0.01</StoreFrequency>
       <JacStoreFrequency>0.5</JacStoreFrequency>
     </Solver>

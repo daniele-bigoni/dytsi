@@ -776,7 +776,7 @@ namespace DYTSI_Modelling {
             PrintingHandler::printOut(&out, PrintingHandler::STDOUT);
             return GSL_EDOM;
         }
-        lat_disp[LEFT] = this->locY[Y];
+        lat_disp[LEFT] = this->locY[Y];     // ADD HERE TRACK INPUT!
         lat_disp[RIGHT] = - this->locY[Y];
 
         roll[LEFT] = this->locY[PHI];
